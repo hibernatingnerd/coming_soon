@@ -1,0 +1,17 @@
+html {
+  background-image: url("background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Kosugi', sans-serif;
+  color: white;
+}
+
+.card {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 30px;
+}
