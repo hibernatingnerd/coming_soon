@@ -1,0 +1,185 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.page {
+  height: 1000px;
+}
+
+#nav {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  max-height: 300px;
+  position: fixed;
+  top: 0;
+}
+
+.innerName {
+    margin-top: 150px;
+    border: solid 1px goldenrod;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.myName {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
+} .myName h1 {
+  color: white;
+  font-size: 2em;
+  display: block;
+
+}
+
+.page p {
+  color: white;
+  text-align: center;
+}
+.innerName p {
+  font-size: 1em;
+  align-self: center;
+}
+
+
+
+#page1 {
+  background: url("../images/panel1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+  width: 100%
+  max-width: 100%;
+}
+
+#page2 {
+  background: white;
+  background-size: cover;
+  height: 800px;
+  width: 100%
+  max-width: 100%;
+} #page2 h2 {
+  margin-top: 70px;
+}
+
+#page3 {
+  background: url("../images/panel3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bearLogo {
+  width: 100%;
+  height: auto;
+  margin-top: 250px;
+}
+
+#page4 {
+  display: flex;
+  justify-content: center;
+}
+
+.page-4-box {
+  background-color: rgba(25,25,112, 0.5);
+  width: 400px;
+  height: 200px;
+  margin-top: 50px;
+  padding: 20px;
+} .page-4-box a {
+    text-decoration: none;
+}
+
+.imageBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 600px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.imageItem {
+  width: 25%;
+  padding: 15px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.image:hover {
+
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  width: 100px;
+  margin: 0;
+  height: 100vh;
+  background-color: rgba(25,25,112, 0.5);
+}
+
+.nav-list-item {
+  padding: 20px;
+  background-color: rgba(25,25,112, 0.5);
+
+} .nav-list-item a {
+    color: white;
+  text-decoration: none;
+}
+
+.skillsList {
+  display:flex;
+  justify-content: center;
+    padding: 0;
+  max-width: 100%;
+  width: 800px;
+  list-style: none;
+  flex-wrap: wrap;
+  border: solid 1px goldenrod;
+  background-color: rgba(255,255,255,0.3);
+} .skillsList li {
+  width: 15%;
+  padding: 10px;
+}
+
+.aboutPage {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-width 90%;
+  align-items: center;
+} .aboutPage p {
+  color: black;
+}
+
+
+
+.mainBody {
+  margin-left: 100px;
+}
+
+.skill-p {
+  width: 50%;
+}
+.projectHeader {
+width: 100%;
+font-size: 60px;
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px rgb(25,25,112), 0 0 30px rgb(25,25,112), 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+text-align: center;
+}
