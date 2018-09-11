@@ -18,12 +18,14 @@ body {
 
 .innerName {
     margin-top: 150px;
-    border: solid 1px goldenrod;
+    border: solid 1px rgb(255,133,82);
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     padding: 30px;
+    font-size: 1.5em;
+    background-color: rgba(255,133,82, 0.5);
 }
 
 .myName {
@@ -129,12 +131,12 @@ body {
   width: 100px;
   margin: 0;
   height: 100vh;
-  background-color: rgba(25,25,112, 0.5);
+  background-color: rgba(133,255,199, 0.5);
 }
 
 .nav-list-item {
   padding: 20px;
-  background-color: rgba(25,25,112, 0.5);
+  background-color: rgba(41,115,115, 0.5);
 
 } .nav-list-item a {
     color: white;
@@ -145,12 +147,13 @@ body {
   display:flex;
   justify-content: center;
     padding: 0;
+    margin-top: 20px;
   max-width: 100%;
   width: 800px;
   list-style: none;
   flex-wrap: wrap;
   border: solid 1px goldenrod;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(230,230,230, 0.5);
 } .skillsList li {
   width: 15%;
   padding: 10px;
@@ -165,6 +168,7 @@ body {
   align-items: center;
 } .aboutPage p {
   color: black;
+  padding: 10px;
 }
 
 
@@ -183,3 +187,41 @@ color: #fff;
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px rgb(25,25,112), 0 0 30px rgb(25,25,112), 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
 text-align: center;
 }
+
+li.nav-list-item-header {
+  display: none;
+}
+
+.hidden-menu {
+  display: none;
+}
+/* mediaquery break points from here down */
+@media all and (min-width:1200px){ ... }
+@media all and (min-width: 960px) and (max-width: 1199px) { ... }
+@media all and (min-width: 768px) and (max-width: 959px) { ... }
+@media all and (min-width: 480px) and (max-width: 767px){ ... }
+@media all and (max-width: 599px) { ... }
+@media all and (max-width: 479px) {
+  .nav-list {
+    display:none;
+  }
+
+  .innerName {
+    font-size: 1em;
+  }
+  .mainBody {
+    margin-left: 0;
+  }
+
+.skillsList{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 90%;
+}
+
+.hidden-menu {
+  position: fixed;
+  display: block;
+  list-style-type: none;
+}
+ }
