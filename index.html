@@ -19,21 +19,30 @@
 <body>
   <div id="nav">
     <ul class="nav-list">
-      <li class="nav-list-item"><a href="#about">About</a></li>
-      <li class="nav-list-item"><a href="#portfolio">Portfolio</a></li>
-      <li class="nav-list-item"><a href="#contact">Contact</a></li>
-      <li class="nav-list-item"><a href="#top">Up</a></li>
+      <a class="link" href="#about">
+        <li class="nav-list-item">About</li>
+      </a>
+      <a class="link" href="#portfolio">
+        <li class="nav-list-item">Portfolio</li>
+      </a>
+      <a class="link" href="#contact">
+        <li class="nav-list-item">Contact</li>
+      </a>
+      <a class="link" href="#top">
+        <li class="nav-list-item">Up</li>
+      </a>
     </ul>
   </div>
 
   <div class="hidden-menu">
     <ul>
-      <li>MENU<li>
-      <li>
-        <ul>
-          <li>ABOUT</li>
-        </ul>
-      </li>
+      <li>MENU
+        <li>
+          <li>
+            <ul>
+              <li>ABOUT</li>
+            </ul>
+          </li>
     </ul>
   </div>
 
@@ -115,7 +124,6 @@
 
       </section>
     </div>
-
     <div class="page" id="page3">
       <a id="portfolio" class="smooth"></a>
 
@@ -123,32 +131,45 @@
         <h2 class="projectHeader">Projects</h2>
         <div class='imageItem'><a href="https://gym-me.herokuapp.com/">
             <img class="image" src="images/img-2.jpg">
-            <h3 class="text-block">GYM ME</h3>
-            <p>Fitness web-application. Create a user, post events, meet other fitness mined local people. Built using Rails, Postgres, Redis, HTML, CSS, and Javascript.</p>
-          </a>
+                </a>
+          <h3 class="text-block">GYM ME</h3>
+          <p>Fitness web-application. Create a user, post events, meet other fitness mined local people. Built using Rails, Postgres, Redis, HTML, CSS, and Javascript.</p>
+
         </div>
-        <div class='imageItem'>
-          <img class="image" src="images/img-1.jpg">
+        <div class='imageItem' id='image2'>
           <h3 class="text-blok">Seat Yourself</h3>
           <p>Restaurant Booking web-application. Reserve a seat a Restaurant as a user, or create and display a your establishment as a Owner. Build using Rails, SQLite3, HTML, CSS.</p>
-        </div>
-        <div class='imageItem'><a href="https://photogur-clone.herokuapp.com/">
-          <img class="image" src="images/img-3.jpg">
-          <h3>Photogur</h3>
-          <p>Photo sharing webapp. Create an account, post photos, leave comments. Built using Rails, HTML, CSS.</p>
         </a>
+
         </div>
+
+
+        <div class='imageItem' id='image3'>
+        <a href="https://photogur-clone.herokuapp.com/">
+        <h3>Photogur</h3></a>
+          <a href="https://photogur-clone.herokuapp.com/">    <p>Photo sharing webapp. Create an account, post photos, leave comments. Built using Rails, HTML, CSS.</p>
+          </a>
+
+        </div>
+        <div class='imageItem' id='image5'>
+          <a href="assets/weatherapp-linux-x64.zip">
+
+
+            <h3>Weather App</h3>
+            <p>Beta version of desktop weather app. Built using Node.js, Javascript, and Electron.</p>
+        </div>
+        </a>
       </div>
     </div>
     <div class="page" id="page4">
       <div class="page-4-box">
-      <a id="contact" class="smooth"></a>
-      <h3>How to reach me!</h3>
-      <p>
-        <a href="mailto:hello@jefferycampbell.ca?Subject=Hello" target="_top">
+        <a id="contact" class="smooth"></a>
+        <h3>How to reach me!</h3>
+        <p>
+          <a href="mailto:hello@jefferycampbell.ca?Subject=Hello" target="_top">
 hello@jefferycampbell.ca</a></p>
-      <p><a href="www.github.com/hibernatingnerd">or check out my gitHub!</a></p>
-    </div>
+        <p><a href="www.github.com/hibernatingnerd">or check out my gitHub!</a></p>
+      </div>
     </div>
   </main>
   <script src="styles/main.js"></script>
