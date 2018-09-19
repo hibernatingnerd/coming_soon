@@ -4,6 +4,8 @@ body {
 
 .page {
   height: 1000px;
+} .page a {
+  text-decoration: none;
 }
 
 #nav {
@@ -83,6 +85,9 @@ body {
 }
 
 #page4 {
+  height: 800px;
+  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -178,11 +183,13 @@ body {
   width: 50%;
 }
 .projectHeader {
+  margin: 0 auto;
 width: 100%;
 font-size: 60px;
 color: #fff;
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px rgb(25,25,112), 0 0 30px rgb(25,25,112), 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
 text-align: center;
+max-height: 80 px;
 }
 
 
@@ -194,10 +201,38 @@ li.nav-list-item-header {
   display: none;
 }
 
+.blah {
+  height: 90%;
+  background: rgba(0,0,255,0.7);
+} .blah p {
+  text-decoration: none;
+}
+.text-block {
+   color: white;
+ }
+
+ h3 {
+   color: white;
+ }
+
+ .text-blok {
+   color: white;
+ }
+
+.text-block {
+  text-decoration: none;
+}
+
+
 .hidden-menu {
   display: none;
 }
 
+
+#image1 {
+  background: url("../images/img-1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 
 #image2 {
   background: url("../images/img-2.jpg") no-repeat center center fixed;
